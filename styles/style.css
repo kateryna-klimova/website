@@ -11,11 +11,18 @@
   width: 25%;
   position: relative;
 }
-
 /* End progress bar */
 
+/* Wrapper grid */
+.wrapper{
+  width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 20px;
+  padding-top: 20px;
+}
 
-
+/* Wrapper grid ends */
 
 
 html {
@@ -49,9 +56,10 @@ html {
 img {
   display: block;
   margin: 0 0;
-  width: 600px;
+  width: 300px;
+  height: 300px;
   position: relative;
-  right: 40px;
+  /* right: 40px; */
 }
 
 body {
